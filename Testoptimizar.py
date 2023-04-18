@@ -9,4 +9,4 @@ def test_media():
     d = Optimizar();
     d.add(4)
     d.add(4)
-    d.media() == 4
+    assert d.media() == 4
