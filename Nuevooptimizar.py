@@ -1,8 +1,13 @@
-array = []
+class Optimizar:
+    array = []
+    def inp():
+        print("Introduce un numero ")
+        return int(input())
 
-for i in range(3):
-    n = int(input("Introduzca un número: "))
-    array.append(n)
+    def add(self,n):
+        self.array.append(n)
 
-media = sum(array) / len(array)
-print(f"La media es {media}")
+    def media(self):
+        suma = sum(self.array)
+        media = suma / len(self.array)
+        return media
