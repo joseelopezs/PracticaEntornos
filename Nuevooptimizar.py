@@ -1,6 +1,6 @@
 class Optimizar:
     array = []
-    def inp():
+    def inp(self):
         print("Introduce un numero ")
         return int(input())
 
